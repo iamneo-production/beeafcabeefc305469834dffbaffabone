@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.springapp.SpringappApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.727 s <<< FAILURE! - in com.example.springapp.SpringappApplicationTests
+testadd  Time elapsed: 0.359 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at com.example.springapp.SpringappApplicationTests.testadd(SpringappApplicationTests.java:40)
+
+getall  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.example.springapp.SpringappApplicationTests.getall(SpringappApplicationTests.java:53)
+
